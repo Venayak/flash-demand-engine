@@ -2,8 +2,7 @@
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
-**URL**: https://github.com/Venayak/flash-demand-engine/settings
+**URL**: https://github.com/Venayak/flash-demand-engine
 
 ## How can I edit this code?
 
