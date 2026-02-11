@@ -6,6 +6,7 @@ import { useFomoPricing } from '@/hooks/useFomoPricing';
 import ProductCard from '@/components/ProductCard';
 import Navbar from '@/components/Navbar';
 import LiveTicker from '@/components/LiveTicker';
+import DashboardLayout from '@/components/DashboardLayout';
 import { Skeleton } from '@/components/ui/skeleton';
 
 const Products = () => {
@@ -31,6 +32,7 @@ const Products = () => {
   const filtered = filter === 'all' ? fomoProducts : fomoProducts.filter(p => p.category === filter);
 
   return (
+    <DashboardLayout>
     <div className="min-h-screen bg-background">
       <Navbar />
       <LiveTicker />
@@ -91,6 +93,7 @@ const Products = () => {
         )}
       </div>
     </div>
+    </DashboardLayout>
   );
 };
 

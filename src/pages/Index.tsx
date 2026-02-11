@@ -6,6 +6,7 @@ import Navbar from '@/components/Navbar';
 import HeroSection from '@/components/HeroSection';
 import LiveTicker from '@/components/LiveTicker';
 import ProductCard from '@/components/ProductCard';
+import DashboardLayout from '@/components/DashboardLayout';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -29,6 +30,7 @@ const Index = () => {
   }, []);
 
   return (
+    <DashboardLayout>
     <div className="min-h-screen bg-background">
       <Navbar />
       <HeroSection />
@@ -106,6 +108,7 @@ const Index = () => {
         </div>
       </footer>
     </div>
+    </DashboardLayout>
   );
 };
 
