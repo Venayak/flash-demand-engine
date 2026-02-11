@@ -44,14 +44,15 @@
     --warning-foreground: 220 20% 6%;
     --glow: 32 95% 52%;
 
-    --sidebar-background: 220 18% 8%;
-    --sidebar-foreground: 40 10% 85%;
+    --sidebar-background: 222 35% 10%;
+    --sidebar-foreground: 210 20% 90%;
     --sidebar-primary: 32 95% 52%;
     --sidebar-primary-foreground: 220 20% 6%;
-    --sidebar-accent: 220 15% 14%;
-    --sidebar-accent-foreground: 40 10% 85%;
-    --sidebar-border: 220 15% 18%;
-    --sidebar-ring: 32 95% 52%;
+    --sidebar-accent: 260 60% 55%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 222 25% 16%;
+    --sidebar-ring: 260 60% 55%;
+    --sidebar-muted: 222 20% 45%;
   }
 }
 
